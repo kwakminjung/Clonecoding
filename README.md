@@ -2,7 +2,7 @@
   2022-1 스터디 :: 당근마켓 팀 페이지 클론코딩
 </h1>
 
-<a href="https://kwakminjung.github.io/Clonecoding/">당근마켓 팀<a>
+링크로 바로가기 : <a href="https://kwakminjung.github.io/Clonecoding/">당근마켓 팀<a>
 
 <h3>피드백<h3>
 <ol>
