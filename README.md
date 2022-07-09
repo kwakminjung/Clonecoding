@@ -4,7 +4,7 @@
 
 링크로 바로가기 : <a href="https://kwakminjung.github.io/Clonecoding/">당근마켓 팀<a>
 
-<h3>피드백<h3>
+<h3>피드백</h3>
 <ol>
   <li>가장 크게 잡은 콘텐츠로 margin 주기</li>
   <li>전체에 top:0, left:0 주기 (전체 기본 속성 적용: 톡방에 올라옴)</li>
