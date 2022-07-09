@@ -10,7 +10,7 @@
   <li>✅전체에 top:0, left:0 주기</li>
   <li>✅당근마켓 팀(6명)이 말하는 곳 쭉 나열 후에 overflow: hidden으로 넘기는 효과 만들기</li>
   <li>✅당근마켓 팀(6명)이 말하는 곳 쭉 나열 후에 overflow: hidden으로 한 뒤, 넘기는 효과 만들기</li>
-  <li>✅margin주기보다는 max-width로 깔끔하게 -> max-width 안 넣어도 알아서 맞춰지길래 grid-template-columns 로 1fr 1fr 반반 맞춤</li>
+  <li>✅margin주기보다는 max-width로 깔끔하게 -> 자꾸 #check 에 있는 img에 비해<br> #TeamCulture의 텍스트가 작아져서 텍스트에 min-width로 크기 맞춤</li>
 </ol>
 
 <h3>앞으로 해야 할 일</h3>
