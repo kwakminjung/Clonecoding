@@ -73,10 +73,6 @@ div {
 
 /*본문*/
 
-.contents {
-    border-bottom: 1px solid gray;
-}
-
 /*윗 내용*/
 
 @media (min-width: 576px) {
@@ -157,14 +153,13 @@ h1 {
     grid-template-columns: 1fr 1fr;
     row-gap: 2.5rem;
     column-gap: 2.5rem;
-    margin: 0;
-    margin-right: 10em;
-    margin-bottom: 90px;
+
 }
 
 #teamIntro1 {
     grid-area: title;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, min-content);
 }
 #userValue {
@@ -174,6 +169,7 @@ h1 {
 #effort {
     font-size: 18px;
     word-spacing: 1.5px;
+    margin: 0;
 }
 
 /*팀원들의 한 마디*/
@@ -262,3 +258,40 @@ h1 {
 
 /*마지막 사진+ 지금, 당근마켓의 . . .*/
 
+#lastImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#lastImg img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    vertical-align: top;
+    position: relative;
+    overflow: top;
+}
+
+.work {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-bottom: 1px gray solid;
+}
+
+#Now {
+    text-align: center;
+}
+
+#now {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#join {
+    text-decoration: none;
+}
