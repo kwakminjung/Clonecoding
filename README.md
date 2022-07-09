@@ -6,10 +6,10 @@
 
 <h3>피드백</h3>
 <ol>
-  <li>가장 크게 잡은 콘텐츠로 margin 주기(마지막 가로로 큰 사진 제외)</li>
-  <li>전체에 top:0, left:0 주기 (전체 기본 속성 적용: 톡방에 올라옴)</li>
+  <li>✅가장 크게 잡은 콘텐츠로 margin 주기(마지막 가로로 큰 사진 제외)</li>
+  <li>✅전체에 top:0, left:0 주기</li>
   <li>당근마켓 팀(6명)이 말하는 곳 쭉 나열 후에 overflow: hidden으로 넘기는 효과 만들기</li>
-  <li>margin주기보다는 max-width로 깔끔하게</li>
+  <li>✅margin주기보다는 max-width로 깔끔하게 -> max-width 안 넣어도 알아서 맞춰지길래 grid-template-columns 로 1fr 1fr 반반 맞춤</li>
 </ol>
 
 <h3>개선 할 점</h3>
