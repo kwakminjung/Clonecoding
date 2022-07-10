@@ -4,20 +4,21 @@
 
 링크로 바로가기 : <a href="https://kwakminjung.github.io/Clonecoding/">당근마켓 팀<a>
 
-<h3>피드백(07-08)</h3>
+<h3>피드백(07.08)</h3>
 <ol>
   <li>✅가장 크게 잡은 콘텐츠로 margin 주기(마지막 가로로 큰 사진 제외)</li>
   <li>✅전체에 top:0, left:0 주기</li>
   <li>✅당근마켓 팀(6명)이 말하는 곳 쭉 나열 후에 overflow: hidden으로 넘기는 효과 만들기</li>
   <li>✅당근마켓 팀(6명)이 말하는 곳 쭉 나열 후에 overflow: hidden으로 한 뒤, 넘기는 효과 만들기</li>
-  <li>✅margin주기보다는 max-width로 깔끔하게 -> max-width 안 넣어도 알아서 맞춰지길래 grid-template-columns 로 1fr 1fr 반반 맞춤</li>
+  <li>✅margin주기보다는 max-width로 깔끔하게 -> 자꾸 #check 에 있는 img에 비해<br> #TeamCulture의 텍스트가 작아져서 텍스트에 min-width로 크기 맞춤</li>
 </ol>
 
 <h3>앞으로 해야 할 일</h3>
 <ol>
-  <li>✅팀원 넘어가는 부분 버튼 간격주기</li>
+  <li>✅팀원 넘어가는 부분 버튼 간격주기 ⬜버튼 눌렀을 때 안이 검은 동그라미로 변화시킨 뒤 유지하는 방법 질문하기</li>
   <li>⬜smooth 효과 줄 수 있는 방법 찾아보기</li>
   <li>✅밑에 부분 앵커 넣고 ⬜footer 마저 하기</li>
+  <li>⬜마지막 큰 사진 가로 꽉 채우는 방법 질문하고 채우기</li>
   <li>mediaquery는 나중에</li>
 </ol>
 
