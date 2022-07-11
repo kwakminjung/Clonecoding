@@ -151,24 +151,29 @@ h1 {
 #teamIntro {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2.5rem;
-    column-gap: 2.5rem;
-
+    gap: 4.5rem;
 }
 
-#teamIntro1 {
-    grid-area: title;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, min-content);
-}
 #userValue {
     font-size: 2em;
 }
 
 #effort {
+    display: flex;
     font-size: 18px;
     word-spacing: 1.5px;
+    margin: 0;
+    max-width: 500px;
+}
+
+#teamIntro2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    font-size: 20px;
+}
+
+h4 {
     margin: 0;
 }
 
@@ -347,7 +352,7 @@ h1 {
 }
 
 .JoinCarrot {
-    border-bottom: 1px gray solid;
+    border-bottom: 1px rgb(200, 200, 200) solid;
 }
 
 .work {
@@ -375,3 +380,57 @@ h1 {
 
 /*footer*/
 
+footer {
+    margin-top: 5rem;
+}
+
+#bottom #loofootTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    font-size: small;
+    font-weight: bold;
+    padding: 0px;
+}
+
+#foot .footMenu {
+    text-decoration-line: none;
+}
+
+#sharing {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#sharing .footIcon img {
+    width: 25px;
+    height: auto;
+}
+
+#bottom #detail {
+    display: grid;
+}
+
+#detail #address {
+    font-size: 15px;
+    color: gray;
+    margin: 0px;
+}
+
+#detail #corp {
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+}
+
+#bottom {
+    display: grid;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
