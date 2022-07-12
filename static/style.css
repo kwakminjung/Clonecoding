@@ -20,6 +20,10 @@ div {
 
 /*banner*/
 
+.pageLink {
+    text-decoration: none;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -265,15 +269,15 @@ h4 {
     color: rgb(82, 82, 82);
 }
 
-.btn {
-    display: inline-block;
-    text-decoration: none;
+.btn img {
+    width: 14px;
+    height: auto;
 }
-
+/*
 .button > .btn:active {
     background-color: black;
     color: white;
-}
+}*/
 
 
 
