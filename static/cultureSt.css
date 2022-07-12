@@ -1,0 +1,52 @@
+#growthTop {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#teamPic {
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+#teamPic img {
+    width: 100%;
+    height: auto;
+}
+
+#What {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    grid-column-start: 1;
+    grid-column-end: end;
+
+    max-width: 75rem;
+
+    box-sizing: border-box;
+    white-space: pre-line;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#growth {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    gap: 3.5rem;
+    
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
