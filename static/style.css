@@ -355,15 +355,11 @@ h4 {
     overflow: top;
 }
 
-.JoinCarrot {
-    border-bottom: 1px rgb(200, 200, 200) solid;
-}
 
 .work {
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 200px;
 }
 
 #Now {
@@ -434,7 +430,10 @@ footer {
 }
 
 #bottom {
+    border-top: 1px solid rgb(187, 187, 187);
     display: grid;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
