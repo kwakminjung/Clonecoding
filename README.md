@@ -22,10 +22,7 @@
   <li>⬜smooth 효과 줄 수 있는 방법 찾아보기</li>
   <li>✅밑에 부분 앵커 넣고 ⬜footer 마저 하기</li>
   <li>mediaquery는 나중에</li>
-</ol>
-
-<h3>내일 할 일</h3>
-<p>⬜오늘 한 culture.html <'section'> 부분 꼼꼼히 본 뒤에 나중에 어떻게 할지 생각해보기</p>
+<ol>
 
 <h3>기간</h3>
 <ul>
