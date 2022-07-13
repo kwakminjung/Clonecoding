@@ -50,3 +50,13 @@
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
 }
+
+#culture2 img {
+    width: 100%;
+    height: auto;
+}
+
+#How {
+    font-size: 40px;
+    font-weight: bold;
+}
