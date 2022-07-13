@@ -24,9 +24,6 @@
   <li>mediaquery는 나중에</li>
 </ol>
 
-<h3>내일 할 일</h3>
-<p>⬜오늘 한 culture.html <'section'> 부분 꼼꼼히 본 뒤에 나중에 어떻게 할지 생각해보기</p>
-
 <h3>기간</h3>
 <ul>
   <li>1차 : 22.7.1 ~ 8</li>
