@@ -25,8 +25,8 @@
 <h3>앞으로 해야 할 일</h3>
 <ol>
   <li>✅팀원 넘어가는 부분 버튼 간격주기</li>
-  <li>⬜smooth 효과 줄 수 있는 방법 찾아보기</li>
-  <li>✅밑에 부분 앵커 넣고 ⬜footer 마저 하기</li>
+  <li>✅smooth 효과 줄 수 있는 방법 찾아보기 -> transition</li>
+  <li>✅밑에 부분 앵커 넣고 ✅footer 마저 하기</li>
   <li>mediaquery는 나중에</li>
 </ol>
 
