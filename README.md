@@ -5,14 +5,14 @@
 링크로 바로가기 : <a href="https://kwakminjung.github.io/Clonecoding/">당근마켓 팀<a>
 
 <h3>피드백</h3>
-<h5>index.html-07.08</h5>
+<h5>1차 : index.html-07.08</h5>
 <ol>
   <li>✅가장 크게 잡은 콘텐츠로 margin 주기(마지막 가로로 큰 사진 제외)</li>
   <li>✅전체에 top:0, left:0 주기</li>
   <li>✅당근마켓 팀(6명)이 말하는 곳 쭉 나열 후에 overflow: hidden으로 한 뒤, 넘기는 효과 만들기</li>
   <li>✅margin주기보다는 max-width로 깔끔하게 -> 자꾸 #check 에 있는 img에 비해<br> #TeamCulture의 텍스트가 작아져서 텍스트에 min-width로 크기 맞춤</li>
 </ol>
-<h5>index.html-07.13</h5>
+<h5>2차 : index.html-07.13</h5>
 <ol>
   <li>⬜.AllContents에 margin 더 주기</li>
   <li>⬜js object로 배열 만들어서 팀원부분 만들기</li>
@@ -33,6 +33,9 @@
 <h3>기간</h3>
 <ul>
   <li>1차 : 22.7.1 ~ 8</li>
-  <li>피드백 : 22.7.8</li>
+  <li>1차 피드백 : 22.7.8</li>
+  <li>2차 : 22.7.8 ~ 13</li>
+  <li>2차 피드백 : 22.7.13</li>
+  <li>3차 : 22.7.13 ~</li>
 </ul>
 <h3>인원 </h3>1 명
