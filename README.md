@@ -14,19 +14,20 @@
 </ol>
 <h5>2차 : index.html-07.13</h5>
 <ol>
-  <li>⬜.AllContents에 margin 더 주기</li>
+  <li>✅.AllContents에 margin 더 주기</li>
   <li>⬜js object로 배열 만들어서 팀원부분 만들기</li>
   <li>⬜팀원부분에 다음, 이전 버튼 만들기(사용자에게 중요한 기능)</li>
   <li>⬜팀원부분에 transition: left 0.5s ease-out 이런식으로 넘기는 기능 만들기</li>
-  <li>⬜행간조절하기 line-height로 조절</li>
-  <li>⬜바로가기 아이콘 바꾸기</li>
+  <li>✅행간조절하기 line-height로 조절 <br>
+  -> 컴에 따라서 다를 수 있으므로 텍스트에는 항상 line-height: normal 주는게 맞는 듯...?
+  <br>(normal로 주면 또 다를거 같아서 w3school 에서 추천한 1.6에서 1.4로 조절하긴 함) + word-spacing: 1px</li>
+  <li>✅바로가기 아이콘 바꾸기</li>
 </ol>
 
 <h3>앞으로 해야 할 일</h3>
 <ol>
-  <li>✅팀원 넘어가는 부분 버튼 간격주기</li>
-  <li>✅smooth 효과 줄 수 있는 방법 찾아보기 -> transition</li>
-  <li>✅밑에 부분 앵커 넣고 ✅footer 마저 하기</li>
+  <li>⬜팀원 넘어가는 부분 수정</li>
+  <li>팀 문화, 채용공고, 자주 묻는 질문, IR 구현</li>
   <li>mediaquery는 나중에</li>
 </ol>
 
