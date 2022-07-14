@@ -8,7 +8,7 @@ div {
 }
 
 .AllContents {
-    margin: 8px;
+    margin: 0 7em;
 }
 
  /*본문에 만들 각 문단 가장 큰 덩이들*/
@@ -133,6 +133,11 @@ h1 {
     margin-top: 50px;
 }
 
+#text2 > p {
+    word-spacing: 1px;
+    line-height: 1.4;
+}
+
 /*
 #text2 {
     box-sizing: border-box;
@@ -166,6 +171,8 @@ h1 {
 
 #userValue {
     font-size: 2em;
+    word-spacing: 1px;
+    line-height: 1.4;
 }
 
 #effort {
@@ -174,6 +181,8 @@ h1 {
     word-spacing: 1.5px;
     margin: 0;
     max-width: 500px;
+    word-spacing: 1px;
+    line-height: 1.4;
 }
 
 #teamIntro2 {
@@ -183,8 +192,9 @@ h1 {
     font-size: 20px;
 }
 
-h4 {
+#teamIntro2 > h4 {
     margin: 0;
+    word-spacing: 1px;
 }
 
 /*팀원들의 한 마디*/
@@ -237,9 +247,11 @@ h4 {
 
 .memberPicture {
     margin: 0px;
-    max-width: 600px;
-    display: block;
+    min-width: 300px;
+    height: auto;
+    display: grid;
 }
+
 /*
 @media (min-width: 48em) {
     .memberPicture {
@@ -267,6 +279,8 @@ h4 {
     font-weight: bold;
     font-size: 28px;
     width: auto;
+    word-spacing: 1px;
+    line-height: 1.4;
 }
 
 .memberInfo {
@@ -303,11 +317,14 @@ h4 {
 #teamWord {
     font-weight: bold;
     font-size: 20px;
+    word-spacing: 1px;
 }
 
 #WeCan {
     font-size: 40px;
     font-weight: bold;
+    word-spacing: 1px;
+    line-height: 1.4;
 }
 
 #seeMore {
@@ -427,6 +444,7 @@ footer {
     font-size: 15px;
     color: gray;
     margin: 0px;
+    word-spacing: 1px;
 }
 
 #detail #corp {
