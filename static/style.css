@@ -333,6 +333,11 @@ h1 {
     text-decoration: none;
 }
 
+#seeMore > img {
+    width: 25px;
+    height: auto;
+}
+
 #CultureDetail {
     margin-bottom: 30px;
 }
@@ -398,6 +403,11 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+}
+
+#join > img {
+    width: 25px;
+    height: auto;
 }
 
 
