@@ -17,7 +17,7 @@
   <li>✅.AllContents에 margin 더 주기</li>
   <li>⬜js object로 배열 만들어서 팀원부분 만들기</li>
   <li>⬜팀원부분에 다음, 이전 버튼 만들기(사용자에게 중요한 기능)</li>
-  <li>⬜팀원부분에 transition: left 0.5s ease-out 이런식으로 넘기는 기능 만들기</li>
+  <li>✅팀원부분에 transition: left 0.5s ease-out 이런식으로 넘기는 기능 만들기 -> 만들기는 했지만 위의 피드백과는 거리가 약간 있음 (다시)</li>
   <li>✅행간조절하기 line-height로 조절 <br>
   -> 컴에 따라서 다를 수 있으므로 텍스트에는 항상 line-height: normal 주는게 맞는 듯...?
   <br>(normal로 주면 또 다를거 같아서 w3school 에서 추천한 1.6에서 1.4로 조절하긴 함) + word-spacing: 1px</li>
