@@ -214,43 +214,29 @@ h1 {
     margin-bottom: 50px;
 }
 
-#group1 {
+.group {
     display: flex;
     flex-direction: row;
     gap: 3.5rem;
     margin: 0px;
-    min-width: 100%;
-    justify-content: center;
-}
-
-#group2 {
-    display: flex;
-    flex-direction: row;
-    gap: 3.5rem;
-    min-width: 100%;
-    justify-content: center;
-}
-
-#group3 {
-    display: flex;
-    flex-direction: row;
-    gap: 3.5rem;
     min-width: 100%;
     justify-content: center;
 }
 
 .member {
     display: grid;
-    flex-direction: column;
     min-width: 40%;
+    grid-template-rows: repeat(2, min-content);
+    row-gap: 2rem;
+    
 }
 
-.memberPicture {
+/* .memberPicture {
     margin: 0px;
     min-width: 300px;
     height: auto;
     display: grid;
-}
+} */
 
 /*
 @media (min-width: 48em) {
@@ -264,13 +250,23 @@ h1 {
     flex-direction: column;
     max-width: 600px;
     margin: 0px;
-    gap: 10px;
+    gap: 2rem;
 }
 
-.memberPicture img {
+/* .memberPicture img {
     max-width: 100%;
     height: auto;
     display: block;
+} */
+
+.member > picture {
+    margin: 0;;
+}
+
+.member > picture img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 .memberQuote {
@@ -289,27 +285,39 @@ h1 {
     color: rgb(82, 82, 82);
 }
 
-.btn img {
+/* .btn img {
     width: 14px;
     height: auto;
-}
+} */
 /*
 .button > .btn:active {
     background-color: black;
     color: white;
 }*/
 
-
-
 .button {
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 40px;
+    scroll-behavior: smooth;
 }
 
-#Team {
-    scroll-behavior: smooth;
+.button img {
+    width: 14px;
+    height: auto;
+    cursor: pointer;
+}
+
+.introDetail .goRight {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: -900px;
+}
+
+.introDetail .goRight img{
+    width: 45px;
 }
 
 /*팀 문화*/

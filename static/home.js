@@ -1,0 +1,3 @@
+function toBlack(this) {
+   
+}
