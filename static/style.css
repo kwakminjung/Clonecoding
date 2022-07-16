@@ -212,6 +212,14 @@ h1 {
     gap: 2.5rem;
     overflow: hidden;
     margin-bottom: 50px;
+
+}
+
+.container {
+    width: 300vw;
+    transition: transform 0.5s;
+    height: auto;
+    overflow: hidden;
 }
 
 .group {
@@ -219,8 +227,9 @@ h1 {
     flex-direction: row;
     gap: 3.5rem;
     margin: 0px;
-    min-width: 100%;
+    width: 100vw;
     justify-content: center;
+    float: left;
 }
 
 .member {
@@ -228,7 +237,6 @@ h1 {
     min-width: 40%;
     grid-template-rows: repeat(2, min-content);
     row-gap: 2rem;
-    
 }
 
 /* .memberPicture {
@@ -260,7 +268,7 @@ h1 {
 } */
 
 .member > picture {
-    margin: 0;;
+    margin: 0;
 }
 
 .member > picture img {
@@ -309,16 +317,16 @@ h1 {
     cursor: pointer;
 }
 
-.introDetail .goRight {
+/* .introDetail .goRight {
     display: flex;
     width: 100%;
     height: 100%;
     top: -900px;
-}
+} */
 
-.introDetail .goRight img{
+/* .introDetail .goRight img{
     width: 45px;
-}
+} */
 
 /*팀 문화*/
 
