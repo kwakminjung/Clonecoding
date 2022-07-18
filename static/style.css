@@ -346,6 +346,22 @@ h1 {
     cursor: pointer;
 }
 
+#nextBtn {
+    width: 50px;
+    position: absolute;
+    top: 140vw;
+    left: 93vw;
+    cursor: pointer;
+}
+
+#beforeBtn {
+    width: 50px;
+    position: absolute;
+    top: 140vw;
+    left: 2vw;
+    cursor: pointer;
+}
+
 /* .introDetail .goRight {
     display: flex;
     width: 100%;
