@@ -1,7 +1,10 @@
 * {
     top: 0;
     left: 0;
-    color: black;
+}
+
+a :hover {
+    color: gray;
 }
 
 div {
@@ -22,6 +25,10 @@ div {
 
 .pageLink {
     text-decoration: none;
+}
+
+.menu > .pageLink :hover {
+    color: gray;
 }
 
 .banner {
@@ -64,10 +71,6 @@ div {
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     font-weight: bold;
-}
-
-.banner #bannerMenu > :hover {
-    color: gray;
 }
 
 .banner #bannerMenu .menu {
