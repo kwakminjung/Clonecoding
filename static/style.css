@@ -25,9 +25,10 @@ div {
 
 .pageLink {
     text-decoration: none;
+    color: black;
 }
 
-.menu > .pageLink :hover {
+.menu a:hover {
     color: gray;
 }
 
@@ -349,7 +350,7 @@ h1 {
     cursor: pointer;
 }
 
-#nextBtn {
+#rightBtn {
     width: 50px;
     position: absolute;
     top: 140vw;
@@ -357,12 +358,20 @@ h1 {
     cursor: pointer;
 }
 
-#beforeBtn {
+#leftBtn {
     width: 50px;
     position: absolute;
     top: 140vw;
     left: 2vw;
     cursor: pointer;
+}
+
+.before:hover {
+    opacity: 0.3;
+}
+
+.after:hover {
+    opacity: 0.3;
 }
 
 /* .introDetail .goRight {
@@ -395,6 +404,11 @@ h1 {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    color: black;
+}
+
+#TeamCulture a:hover { /*{ hover는 상위 클래스(아이디 등) 쓴 뒤에 해야 먹음 */
+    opacity: 0.6;
 }
 
 #seeMore > img {
@@ -426,6 +440,11 @@ h1 {
 
 #check img {
     float: right;
+}
+
+#goCulture {
+    position: relative;
+    top: 5px;
 }
 
 /*마지막 사진+ 지금, 당근마켓의 . . .*/
@@ -467,11 +486,26 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    color: black;
 }
+
+/* #Now a:hover {
+    color: gray;
+} */
+
+#join:hover {
+    opacity: 0.5;
+}
+
 
 #join > img {
     width: 25px;
     height: auto;
+}
+
+#goJoin {
+    position: relative;
+    top: 5px;
 }
 
 
@@ -497,6 +531,11 @@ footer {
 
 #foot .footMenu {
     text-decoration-line: none;
+    color: black;
+}
+
+#foot a:hover {
+    color: gray;
 }
 
 #sharing {
@@ -505,9 +544,18 @@ footer {
     gap: 1.5rem;
 }
 
+.SNSLink:hover {
+    opacity: 0.6;
+}
+
 #sharing .footIcon img {
     width: 25px;
     height: auto;
+}
+
+#medium {
+    position: relative;
+    top: 2px;
 }
 
 #bottom #detail {
