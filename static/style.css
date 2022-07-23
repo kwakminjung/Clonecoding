@@ -125,9 +125,13 @@ h1 {
 /*첫번째 큰 사진+ 월평균 어쩌구*/
 
 #image1 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block;
+}
+
+#image1 {
+    text-align: center;
+
 }
 
 #text2 {
@@ -352,17 +356,11 @@ h1 {
 
 #rightBtn {
     width: 50px;
-    position: absolute;
-    top: 140vw;
-    left: 93vw;
     cursor: pointer;
 }
 
 #leftBtn {
     width: 50px;
-    position: absolute;
-    top: 140vw;
-    left: 2vw;
     cursor: pointer;
 }
 
@@ -384,6 +382,16 @@ h1 {
 /* .introDetail .goRight img{
     width: 45px;
 } */
+/* 
+.btnContainer {
+    position: absolute;
+    left: calc(95% + 1px);
+    top: 1rem
+} */
+
+.TextAndBtn {
+    display: flex;
+}
 
 /*팀 문화*/
 

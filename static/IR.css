@@ -1,7 +1,97 @@
 *{
     margin: 0;
 }
+
 #IR {
     margin-top: 6.5rem;
     margin-bottom: 5rem;
+}
+
+#IRTitle {
+    display: flex;
+    gap: 3.125rem;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+}
+
+#IRTitle div:hover {
+    color: gray;
+}
+
+#disclosure, #FinancialStatements {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.disclosureContents {
+    font-size: 28px;
+    font-weight: bold;
+    list-style: none;
+    cursor: pointer;
+}
+
+.DLink {
+    text-decoration: none;
+    color: black;
+}
+
+.disclosureContents a:hover {
+    color: gray;
+}
+
+#Disclosure {
+    padding: 0;
+}
+
+.disclosureContents:nth-child(1) {
+    padding: 24px 0;
+    border-bottom: solid 1px rgb(197, 197, 197);
+}
+
+.disclosureContents:nth-child(2) {
+    padding: 24px 0;
+    border-bottom: solid 1px rgb(197, 197, 197);
+}
+
+.disclosureContents:nth-child(3) {
+    padding: 24px 0;
+}
+
+#FState {
+    list-style: none;
+}
+
+.IRList {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    overflow: hidden;
+}
+
+#disclosure > a {
+    text-decoration: none;
+    color: black;
+}
+
+#FinancialStatements > a {
+    text-decoration: none;
+    color: black;
+}
+
+#disclosure a:hover {
+    color: gray;
+}
+
+#FinancialStatements a:hover {
+    color: gray;
+}
+
+.Year {
+    text-decoration: none;
+    color: black;
 }
