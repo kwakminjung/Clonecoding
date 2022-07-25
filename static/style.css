@@ -353,13 +353,15 @@ h1 {
     cursor: pointer;
 }
 
-@media (max-width: 90em) {
+@media (max-width: 87.5em) {
     .before, .after {
         visibility: hidden;
     }
 }
 
 .before , .after {
+    width: 50px;
+    height: 50px;
     position: relative;
     top: 20rem;
 }

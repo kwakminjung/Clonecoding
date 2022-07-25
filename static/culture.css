@@ -1,0 +1,200 @@
+* {
+    word-spacing: 1px;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#growthTop {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#teamPic {
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+#teamPic img {
+    width: 100%;
+    height: auto;
+}
+
+#What {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    grid-column-start: 1;
+    grid-column-end: end;
+
+    max-width: 75rem;
+
+    box-sizing: border-box;
+    white-space: pre-line;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#growth {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    gap: 3.5rem;
+    
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+#culture2 img {
+    width: 100%;
+    height: auto;
+}
+
+#How {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 8rem;
+}
+
+.HTT {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.HTT > div {
+    border-bottom: solid 4px orange;
+}
+
+.HT {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#HW1, #HW2, #HW3, #HW4  {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 2.1875rem;
+    width: 100%;
+}
+
+.WorkTV {
+    transition: 0.3s ease-in-out;
+    margin: 0.7;
+    width: 100%;
+}
+
+.HowtoWork {
+    overflow-x: hidden;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(4, 100%);
+    margin-bottom: 10rem;
+}
+
+#TImage {
+    display: block;
+}
+
+#TImage img {
+    width: 100%;
+}
+
+.support {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+
+#support1, #support2, #support3, #support4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.SL > ul {
+    padding: 0;
+    margin-top: 3rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.SupportList {
+    display: grid;
+    gap: 6rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10rem;
+}
+
+#support1 >span, #support2 >span, #support3 >span, #support4 > span {
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+    color: orange;
+}
+
+.SL > p, ul {
+    color: rgb(99, 99, 99);
+}
+
+#CultureEnd {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    width: 100%;
+}
+
+#FImage > img {
+    max-width: 800px;
+    height: auto;
+}
+
+#EndText img {
+    width: 20px;
+    height: 20px;
+}
+
+#EndText {
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    gap: 1.5rem; 
+}
+
+#ET {
+    font-size: 20px;
+}
+
+#EndText > a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#EndText > a > img {
+    position: relative;
+    top: 2px;
+}
+
+#EndText > a:hover {
+    opacity: 0.6;
+}
