@@ -1,3 +1,13 @@
+* {
+    word-spacing: 1px;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #growthTop {
     display: block;
     font-size: 50px;
@@ -59,4 +69,122 @@
 #How {
     font-size: 40px;
     font-weight: bold;
+}
+
+.HTT {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.HTT > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.HTT > div {
+    border-bottom: solid 4px orange;
+}
+
+.HT {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#HW1, #HW2, #HW3, #HW4  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 2.1875rem;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.HowtoWork {
+    width: 100%;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(4, 100%);
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
+
+#TImage {
+    display: block;
+}
+
+#TImage img {
+    width: 100%;
+}
+
+.support {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+
+#support1, #support2, #support3, #support4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.SL > ul {
+    padding: 0;
+    margin-top: 3rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.SupportList {
+    display: grid;
+    gap: 6rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10rem;
+}
+
+#support1 >span, #support2 >span, #support3 >span, #support4 > span {
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+    color: orange;
+}
+
+.SL > p, ul {
+    color: rgb(99, 99, 99);
+}
+
+#CultureEnd {
+    box-sizing: border-box;
+    max-width: 75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0px auto;
+    display: grid;
+    gap: 2.5rem;
+    width: 100%;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+}
+
+#FImage {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    margin: 0;
+}
+
+#EndText img {
+    width: 20px;
+    height: 20px;
+}
+
+#EndText {
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    gap: 1.5rem;
 }
