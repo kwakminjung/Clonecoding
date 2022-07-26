@@ -140,6 +140,10 @@ a {
     gap: 0.5rem;
 }
 
+.SL > ul > ul > li {
+    line-height: 2.2;
+}
+
 .SupportList {
     display: grid;
     gap: 6rem;
