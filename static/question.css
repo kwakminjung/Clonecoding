@@ -17,3 +17,30 @@
     margin-bottom: 3rem;
     cursor: pointer;
 }
+
+/* details > summary {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1.5rem 0.75rem 1.5rem 0px;
+    list-style: none;
+}
+
+details > p {
+    transition: 0.3s ease-in;
+    padding: 2rem 0.75rem;
+} */
+
+button {
+    border: 0;
+    outline: 0;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1.5rem 0.75rem 1.5rem 0px;
+}
+
+.Ans {
+    padding: 2rem 0.75rem;
+}

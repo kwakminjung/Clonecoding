@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    margin: 8px;
+}
+
 #IR {
     margin-top: 6.5rem;
     margin-bottom: 5rem;

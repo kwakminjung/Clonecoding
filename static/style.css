@@ -12,7 +12,7 @@ div {
 }
 
 .AllContents {
-    margin: 0 7em;
+    margin: 0px 7em;
 }
 
 .loaf {
@@ -26,6 +26,14 @@ div {
 .pageLink {
     text-decoration: none;
     color: black;
+}
+
+.unclicked {
+    color: black;
+}
+
+.clicked {
+    color: rgb(255, 138, 61);
 }
 
 .menu a:hover {

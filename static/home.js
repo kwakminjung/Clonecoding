@@ -48,71 +48,94 @@
 // })
 
 
-const sliderWrapper = document.querySelector('.container');
-const sliderContainer = documnet.querySelector('.IntroDetail');
-const btnPrev = document.querySelector('.before');
-const btnNext = document.querySelector('.after');
+// const sliderWrapper = document.querySelector('.container');
+// const sliderContainer = documnet.querySelector('.IntroDetail');
+// const btnPrev = document.querySelector('.before');
+// const btnNext = document.querySelector('.after');
 
-let slides = document.querySelector('.group');
-let slideCount = slides.length;
-let currentIndex = 0;
+// let slides = document.querySelector('.group');
+// let slideCount = slides.length;
+// let currentIndex = 0;
 
-let topHeight = slides[0].offsetHeight;
-function calculateTallsetSlide() {
-    for(let i = 0; i < slideCount; i++) {
-        if(slides[i].offsetHeight > topHeight) {
-            topHeight = slides[i].offsetHeight;
-        }
+// let topHeight = slides[0].offsetHeight;
+// function calculateTallsetSlide() {
+//     for(let i = 0; i < slideCount; i++) {
+//         if(slides[i].offsetHeight > topHeight) {
+//             topHeight = slides[i].offsetHeight;
+//         }
+//     }
+//     sliderContainer.style.height = '${topHeight}px';
+//     sliderWrapper.style.height = '${topHeight}px';
+// }
+// calculateTallsetSlide();
+
+// for(let i = 0; i < slideCount; i++) {
+//     slides[i].style.left = '${i * 100}%';
+// }
+
+// btnPrev.addEventListener('click', () => {
+//     goToSlide(currentIndex - 1);
+// });
+// btnNext.addEventListener('click', () => {
+//     goToSlide(currentIndex + 1);
+// });
+
+// function goToSlide(idx) {
+//     sliderContainer.style.left = '${idx * -100}%';
+//     sliderContainer.classList.add('animated');
+//     currentIndex = idx;
+//     updateNav();
+// }
+
+// function updateNav() {
+//     if(currentIndex == 0) {
+//         btnPrev.classList.add('disabled');
+//     } else {
+//         btnPrev.classList.add('disabled');
+//     }
+//     if(currentIndex == slideCount - 1){
+//         btnNext.classList.add('disabled');
+//     } else {
+//         btnNext.classList.remove('disabled');
+//     }
+// }
+
+// goToSlide(0);
+
+// btnPrev.addEventListener('click', () => {
+//     if(currentIndex != 0) {
+//         goToSlide(currentIndex -1);
+//     } else {
+//         goToSlide(slidecount - 1);
+//     }
+// });
+// btnNext.addEventListener('click', () => {
+//     if(currentIndex < slideCount - 1) {
+//         goToSlide(currentIndex + 1);
+//     } else {
+//         goToSlide(0);
+//     }
+// });
+
+let page = document.querySelectorAll(".pageLink");
+
+function handleClick(event) {
+
+  if (event.target.classList[0] === "clicked") {
+    page[i].classList.add("clicked");
+  } else {
+    for (let i = 0; i < page.length; i++) {
+      page[i].classList.add("unclicked");
     }
-    sliderContainer.style.height = '${topHeight}px';
-    sliderWrapper.style.height = '${topHeight}px';
+
+    event.target.classList.add("clicked");
+  }
 }
-calculateTallsetSlide();
 
-for(let i = 0; i < slideCount; i++) {
-    slides[i].style.left = '${i * 100}%';
+function init() {
+  for (let i = 0; i < page.length; i++) {
+    page[i].addEventListener('click', handleClick);
+  }
 }
 
-btnPrev.addEventListener('click', () => {
-    goToSlide(currentIndex - 1);
-});
-btnNext.addEventListener('click', () => {
-    goToSlide(currentIndex + 1);
-});
-
-function goToSlide(idx) {
-    sliderContainer.style.left = '${idx * -100}%';
-    sliderContainer.classList.add('animated');
-    currentIndex = idx;
-    updateNav();
-}
-
-function updateNav() {
-    if(currentIndex == 0) {
-        btnPrev.classList.add('disabled');
-    } else {
-        btnPrev.classList.add('disabled');
-    }
-    if(currentIndex == slideCount - 1){
-        btnNext.classList.add('disabled');
-    } else {
-        btnNext.classList.remove('disabled');
-    }
-}
-
-goToSlide(0);
-
-btnPrev.addEventListener('click', () => {
-    if(currentIndex != 0) {
-        goToSlide(currentIndex -1);
-    } else {
-        goToSlide(slidecount - 1);
-    }
-});
-btnNext.addEventListener('click', () => {
-    if(currentIndex < slideCount - 1) {
-        goToSlide(currentIndex + 1);
-    } else {
-        goToSlide(0);
-    }
-});
+init();
