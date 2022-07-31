@@ -82,9 +82,17 @@ a {
     cursor: pointer;
 }
 
-.HTT > div {
-    border-bottom: solid 4px orange;
+.selected {
+    border-bottom: solid 4px rgb(255, 138, 61);
 }
+
+.unselected {
+    border-bottom: none;
+}
+
+/* .HTT > div {
+    border-bottom: solid 4px orange;
+} */
 
 .HT {
     font-weight: bold;

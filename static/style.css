@@ -221,6 +221,8 @@ h1 {
 #teamIntroduction {
     margin-top: 100px;
     margin-bottom: 100px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .container {
@@ -229,16 +231,15 @@ h1 {
     height: auto;
     position: relative;
     z-index: -1;
-    display: flex;
-    overflow: hidden;
+    display: block;
 }
 
 .introDetail {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 4rem;
     margin-bottom: 50px;
-    /* overflow: hidden; */
+    width: 100%;
 }
 
 .group {

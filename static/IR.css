@@ -6,6 +6,10 @@ body {
     margin: 8px;
 }
 
+.menu :last-child:hover {
+    color: orange;
+}
+
 #IR {
     margin-top: 6.5rem;
     margin-bottom: 5rem;
