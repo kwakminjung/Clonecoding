@@ -87,12 +87,8 @@ a {
 }
 
 .unselected {
-    border-bottom: none;
+    border-bottom: 4px;
 }
-
-/* .HTT > div {
-    border-bottom: solid 4px orange;
-} */
 
 .HT {
     font-weight: bold;
@@ -100,25 +96,31 @@ a {
 }
 
 #HW1, #HW2, #HW3, #HW4  {
-    overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.25rem 2.1875rem;
-    width: 100%;
+    grid-template-columns: 500px 500px;
+    gap: 1.25rem 4rem;
+}
+
+.workCont {
+    overflow: hidden;
 }
 
 .WorkTV {
     transition: 0.3s ease-in-out;
+    height: auto;
     margin: 0.7;
-    width: 100%;
+    display: block;
 }
 
 .HowtoWork {
-    overflow-x: hidden;
-    display: grid;
+    display: flex;
+    flex-direction: row;
     gap: 5rem;
-    grid-template-columns: repeat(4, 100%);
+    /* display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(4, 100%); */
     margin-bottom: 10rem;
+    width: 400%;
 }
 
 #TImage {
