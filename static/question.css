@@ -18,29 +18,54 @@
     cursor: pointer;
 }
 
-/* details > summary {
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 1.5rem 0.75rem 1.5rem 0px;
-    list-style: none;
+.QTilte > div:first-child {
+    color: rgb(255, 138, 61);
 }
 
-details > p {
-    transition: 0.3s ease-in;
-    padding: 2rem 0.75rem;
-} */
-
-button {
-    border: 0;
-    outline: 0;
-    background-color: white;
+button.accordion {
+    background-color: #FFF;
     cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 1.5rem 0.75rem 1.5rem 0px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    transition: 0.5s;
+    text-align: left;
+    padding: 10px;
 }
 
-.Ans {
-    padding: 2rem 0.75rem;
+button .accordion > p {
+    float: left;
+    margin-left: 10px;
+    width: 76%;
+}
+
+button .accordion:active {
+    font-weight: bold;
+    color: #000;
+}
+
+button .accordion :after {
+    background-image: url(./images/up.png);
+    background-size: 18px 18px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    content: "";
+    position: relative;
+    top: 18px;
+}
+
+button .accordion :active :after {
+    background-image: url(./images/down.png);
+    content: "";
+}
+
+div .panel {
+    padding: 0 18px;
+    background-color: #f7f7f7;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-in;
+    border-bottom: 1px solid #F0F0F0;
+    color: #666666;
 }
