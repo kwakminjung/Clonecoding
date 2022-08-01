@@ -95,10 +95,14 @@ a {
     font-size: 30px;
 }
 
-#HW1, #HW2, #HW3, #HW4  {
+.HW  {
     display: grid;
-    grid-template-columns: 500px 500px;
-    gap: 1.25rem 4rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem 9rem;
+}
+
+.HS {
+    width: 100%;
 }
 
 .workCont {
@@ -115,13 +119,27 @@ a {
 .HowtoWork {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
-    /* display: grid;
-    gap: 5rem;
-    grid-template-columns: repeat(4, 100%); */
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
     margin-bottom: 10rem;
-    width: 400%;
+    width: 100%;
 }
+
+/* .trans1 {
+    transform: translate(0%);
+}
+
+.trans2 {
+    transform: translateX(-100% + 7em);
+} 
+
+.trans3 {
+    transform: translateX(-200% + 7em);
+}
+
+.trans4 {
+    transform: translateX(-300% + 7em);
+} */
 
 #TImage {
     display: block;
