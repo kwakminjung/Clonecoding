@@ -314,6 +314,7 @@ h1 {
     height: 50px;
     position: relative;
     top: 20rem;
+    z-index: 10;
 }
 
 .before #leftBtn {

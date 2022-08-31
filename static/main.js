@@ -40,7 +40,7 @@ function setStyle_m(num) {
       }
   }
   
-  moveSlide(num);
+  // moveSlide(num);
 }
 
 window.onload = function() {
