@@ -25,7 +25,7 @@ prevButton.addEventListener('click', function() {
   } else {
       moveSlide(slideCount - 1);
   }
-});
+}); 
 
 let mem_menu = document.querySelectorAll('#button .btn');
 
